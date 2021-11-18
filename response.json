@@ -1,0 +1,107 @@
+{
+  "success": true,
+  "error": null,
+  "msg": "success",
+  "data": {
+    "dates": {
+      "2021-11-20": {
+        "morningA_25200": [
+          {
+            "session_id": 47561,
+            "pricing_option_ids": [325, 326]
+          }
+        ],
+        "morningB_36000": [
+          {
+            "session_id": 47562,
+            "pricing_option_ids": [325]
+          }
+        ],
+        "morningC_57600": [
+          {
+            "session_id": 47563,
+            "pricing_option_ids": [325, 332]
+          }
+        ]
+      },
+      "2021-11-21": {
+        "morningA_25200": [
+          {
+            "session_id": 47567,
+            "pricing_option_ids": [325, 326]
+          }
+        ],
+        "morningB_36000": [
+          {
+            "session_id": 47568,
+            "pricing_option_ids": [325]
+          }
+        ],
+        "morningC_57600": [
+          {
+            "session_id": 47569,
+            "pricing_option_ids": [325, 332]
+          }
+        ]
+      }
+    },
+    "return_trip_dates": null,
+    "pricing_options": [
+      {
+        "id": 327,
+        "ticket_min_cnt": 1,
+        "ticket_max_cnt": null,
+        "name": "Complimentary return trip ticket",
+        "description": "Terms and conditions applied.",
+        "amt": 0,
+        "is_refundable": true
+      },
+      {
+        "id": 325,
+        "ticket_min_cnt": 1,
+        "ticket_max_cnt": null,
+        "name": "Bring-a-Bike",
+        "description": "Bring your own bike(BYOB) and take a ride to T4. Complimentary return trip ticket is available.",
+        "amt": 16,
+        "is_refundable": true
+      },
+      {
+        "id": 368,
+        "ticket_min_cnt": 1,
+        "ticket_max_cnt": 5,
+        "name": "Rent-a-Bike",
+        "description": "Rent a bike and take a ride to T4. Complimentary return trip ticket is available.",
+        "amt": 38,
+        "is_refundable": true
+      },
+      {
+        "id": 369,
+        "ticket_min_cnt": 1,
+        "ticket_max_cnt": 5,
+        "name": "Rent-a-Bike",
+        "description": "Rent a bike and take a ride to T4. Complimentary return trip ticket is available.",
+        "amt": 38,
+        "is_refundable": true
+      },
+      {
+        "id": 326,
+        "ticket_min_cnt": 1,
+        "ticket_max_cnt": 5,
+        "name": "Rent-a-Bike",
+        "description": "Rent a bike and take a ride to T4. Complimentary return trip ticket is available.",
+        "amt": 38,
+        "is_refundable": true
+      },
+      {
+        "id": 332,
+        "ticket_min_cnt": 1,
+        "ticket_max_cnt": 5,
+        "name": "Rent-a-Bike",
+        "description": "Rent a bike and take a ride to T4. Complimentary return trip ticket is available.",
+        "amt": 38,
+        "is_refundable": true
+      }
+    ],
+    "return_trip_pricing_options": null
+  }
+}
